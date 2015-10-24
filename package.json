@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lokua/package-banner.git"
+    "url": "git+https://github.com/lokua/package-header.git"
   },
   "keywords": [
     "doc",
@@ -20,7 +20,7 @@
   "author": "Joshua Kleckner aka Lokua <dev@lokua.net> (http://lokua.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lokua/package-banner/issues"
+    "url": "https://github.com/lokua/package-header/issues"
   },
-  "homepage": "https://github.com/lokua/package-banner#readme"
+  "homepage": "https://github.com/lokua/package-header#readme"
 }

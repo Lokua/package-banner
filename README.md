@@ -16,10 +16,9 @@ to an ES6 template string.
 ```js
 require('package-header').build(require('./path-to/package.json')); // =>
 /*!
- * package-header
- * version 1.0.0 (built: 2015-10-24)
+ * package-header - version 1.0.0 (built: 2015-10-24)
  *
- *   Generate a header/header doc comment from package.json
+ *   Generate a header/banner doc comment from your package.json
  *
  * git: https://github.com/lokua/package-header.git
  * Copyright © 2015, Joshua Kleckner aka Lokua <dev@lokua.net> (http://lokua.net)
