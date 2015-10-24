@@ -1,7 +1,7 @@
 {
   "name": "package-banner",
   "version": "1.0.0",
-  "description": "Generate a header/banner doc comment from package.json",
+  "description": "Generate a header/banner doc comment from your package.json",
   "main": "index.js",
   "scripts": {
     "test": "node --harmony_array_includes --harmony_destructuring test/test",
@@ -18,7 +18,7 @@
     "header"
   ],
   "author": "Joshua Kleckner aka Lokua <dev@lokua.net> (http://lokua.net)",
-  "license": "CC-BY-NC-ND-4.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lokua/package-banner/issues"
   },
