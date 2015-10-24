@@ -1,11 +1,11 @@
-# package-banner
+# package-header
 
 > Generate a header/banner doc comment from your package.json
 
 ## Installation
 
 ```sh
-npm install package-banner
+npm install package-header
 ```
 
 ## Usage
@@ -14,20 +14,20 @@ This module exposes two functions: `build` and `min`, which simply pass package.
 to an ES6 template string.
 
 ```js
-require('package-banner').build(require('./path-to/package.json')); // =>
+require('package-header').build(require('./path-to/package.json')); // =>
 /*!
- * package-banner
- * version 0.0.1 (built: 2015-10-24)
+ * package-header
+ * version 1.0.0 (built: 2015-10-24)
  *
- *   Generate a header/banner doc comment from package.json
+ *   Generate a header/header doc comment from package.json
  *
- * git: https://github.com/lokua/package-banner.git
+ * git: https://github.com/lokua/package-header.git
  * Copyright © 2015, Joshua Kleckner aka Lokua <dev@lokua.net> (http://lokua.net)
  * License: MIT
  */
 
-require('package-banner').min(require('./path-to/package.json')); // =>
-/*! package-banner v0.0.1 | © 2015 Joshua Kleckner aka Lokua <dev@lokua.net> (http://lokua.net) | MIT */
+require('package-header').min(require('./path-to/package.json')); // =>
+/*! package-header v1.0.0 | © 2015 Joshua Kleckner aka Lokua <dev@lokua.net> (http://lokua.net) | MIT */
 ```
 
 That's it for now!

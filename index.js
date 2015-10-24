@@ -1,12 +1,12 @@
 /*!
- * package-banner
- * version 0.0.1 (built: 2015-10-24)
+ * package-header
+ * version 1.0.0 (built: 2015-10-24)
  *
- *   Generates a header/banner doc comment from package.json
+ *   Generate a header/banner doc comment from your package.json
  *
  * git: https://github.com/lokua/package-banner.git
  * Copyright © 2015, Joshua Kleckner aka Lokua <dev@lokua.net> (http://lokua.net)
- * License: CC-BY-NC-ND-4.0
+ * License: MIT
  */
 
 const date = new Date().toISOString().slice(0, 10);
