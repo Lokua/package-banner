@@ -30,8 +30,7 @@ require('package-banner').min(require('./path-to/package.json')); // =>
 /*! package-banner v0.0.1 | © 2015 Joshua Kleckner aka Lokua <dev@lokua.net> (http://lokua.net) | MIT */
 ```
 
-This module is so simple I don't see any point in adding more features. If you want to
-customize you're better off just copying or forking.
+That's it for now!
 
 ### License
 [MIT](http://lokua.net/license-mit.html)
