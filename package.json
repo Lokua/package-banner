@@ -1,6 +1,6 @@
 {
   "name": "package-header",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generate a header/banner doc comment from your package.json",
   "main": "index.js",
   "scripts": {
